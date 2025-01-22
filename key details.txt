@@ -1,0 +1,11 @@
+Key Details:
+Trigger Events:
+The workflow triggers on push or pull_request to the main branch.
+Build Steps:
+Checkout Code: Ensures that the latest code is available for the build.
+Setup Java: Installs OpenJDK 17.
+Compile: Compiles the source code located in the src directory.
+Run Tests:
+Compiles the tests from the test directory and runs them using JUnit.
+
+Hey i am teacher, teaching to beginners for how to provide CI in github actions using yaml file. Suggest a simple yaml file which performs some actions like simple java calculator applications 
